@@ -1,0 +1,18 @@
+[submodule "uczlm97/www/cege0043-imagesReference"]
+	path = uczlm97/www/cege0043-imagesReference
+	url = https://github.com/GEOGMLIU/cege0043-imagesReference.git
+[submodule "uczlm97/www/cege0043-cssReference"]
+	path = uczlm97/www/cege0043-cssReference
+	url = https://github.com/GEOGMLIU/cege0043-cssReference.git
+[submodule "uczlm97/www/cege0043-jsReference"]
+	path = uczlm97/www/cege0043-jsReference
+	url = https://github.com/GEOGMLIU/cege0043-jsReference.git
+[submodule "uczlm97/www/js"]
+	path = uczlm97/www/js
+	url = https://github.com/GEOGMLIU/cege0043-jsReference
+[submodule "uczlm97/www/css"]
+	path = uczlm97/www/css
+	url = https://github.com/GEOGMLIU/cege0043-cssReference
+[submodule "uczlm97/www/images"]
+	path = uczlm97/www/images
+	url = https://github.com/GEOGMLIU/cege0043-imagesReference
