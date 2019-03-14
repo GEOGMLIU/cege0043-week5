@@ -74,7 +74,7 @@ crossorigin=""></script>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <!-- the following CSS is used to set the size of the Map-->
 <style type="text/css">
-#mapid{height: 500px;}
+#mapid{height: 400px;}
 </style>
 <link rel="stylesheet" href="ionicons.min.css">
 <link rel="stylesheet" href="leaflet.awesome-markers.css">
@@ -140,16 +140,20 @@ crossorigin=""></script>
       </nav>
     </div>
 
-<!-- 
-    <main class="mdl-layout__content mdl-color--grey-100">
-		<div id="mapid" style="width: 800px; height: 700px;"></div>
-	</main class="mdl-layout__content mdl-color--grey-100"> 
- -->
+	
 	<main class="mdl-layout__content mdl-color--grey-100">
-		<div id="div1" style="width: 1600px; height: 20px;">
+		<div id="divForm" style="width: 1000px; height: 400px;">Changes occur at here</div>
+	</main class="mdl-layout__content mdl-color--grey-100"> 
+<!--  
+    <main class="mdl-layout__content mdl-color--grey-100">
+		<div id="mapid" style="width: 1000px; height: 400px;"></div>
+	</main class="mdl-layout__content mdl-color--grey-100"> 
+
+	<main class="mdl-layout__content mdl-color--grey-100">
+		<div id="div1" style="width: 1000px; height: 200px;">
 		<div w3-include-html="createForm.html"></div>
 		</div>
-	</main class="mdl-layout__content mdl-color--grey-100"> 
+	</main class="mdl-layout__content mdl-color--grey-100"> -->
   </div>
   
   
@@ -162,6 +166,7 @@ crossorigin=""></script>
   <script src="js/utilities.js"></script>
   <script src="js/AJAX2.js"></script>
   <script src="js/uploadData.js"></script>
+  <script>getPort();</script>
   <script>startup();</script>
 </body>
 </html>
