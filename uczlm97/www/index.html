@@ -142,18 +142,20 @@ crossorigin=""></script>
 
 	
 	<main class="mdl-layout__content mdl-color--grey-100">
-		<div id="divForm" style="width: 1000px; height: 400px;">Changes occur at here</div>
+		<div id="divForm" style="width: 1000px; height: 400px;">Changes occur at here
+		<button id="divLoadForm" onclick="startFormDataLoad()">Start Data Load...</button>
+		</div>
 	</main class="mdl-layout__content mdl-color--grey-100"> 
 <!--  
     <main class="mdl-layout__content mdl-color--grey-100">
 		<div id="mapid" style="width: 1000px; height: 400px;"></div>
-	</main class="mdl-layout__content mdl-color--grey-100"> 
+	</main class="mdl-layout__content mdl-color--grey-100"> -->
 
 	<main class="mdl-layout__content mdl-color--grey-100">
-		<div id="div1" style="width: 1000px; height: 200px;">
+		<div id="div1" style="width: 1000px; height: 500px;">
 		<div w3-include-html="createForm.html"></div>
 		</div>
-	</main class="mdl-layout__content mdl-color--grey-100"> -->
+	</main class="mdl-layout__content mdl-color--grey-100"> 
   </div>
   
   
@@ -166,7 +168,6 @@ crossorigin=""></script>
   <script src="js/utilities.js"></script>
   <script src="js/AJAX2.js"></script>
   <script src="js/uploadData.js"></script>
-  <script>getPort();</script>
   <script>startup();</script>
 </body>
 </html>
