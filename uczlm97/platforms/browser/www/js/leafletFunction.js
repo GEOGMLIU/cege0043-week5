@@ -195,7 +195,7 @@ function popupClickLocation()
 
 var poiLayer;
 function startFormDataLoad() {
-	alert("loading...1");
+	//alert("loading...1");
 	getPort();
 	xhrFormData = new XMLHttpRequest();
 	var url = "http://developer.cege.ucl.ac.uk:"+httpPortNumber;
@@ -218,7 +218,7 @@ function formDataResponse(){
 }
 
 function loadForm(formData){
-	alert("formDataResponsed");
+	//alert("formDataResponsed");
 	var json = JSON.parse(formData);
 	poiLayer = L.geoJson(json).addTo(mymap);
 	mymap.fitBounds(poiLayer.getBounds());
